@@ -1,5 +1,5 @@
 module MyEnumerable
-  def my_all?
+  def all?
     return unless block_given?
 
     result = false
@@ -9,7 +9,7 @@ module MyEnumerable
     result
   end
 
-  def my_any?
+  def any?
     return unless block_given?
 
     any = false
@@ -19,7 +19,7 @@ module MyEnumerable
     any
   end
 
-  def my_filter?
+  def filter?
     return unless block_given?
 
     number_array = []
