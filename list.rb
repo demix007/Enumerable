@@ -19,4 +19,6 @@ puts list1.filter(&:even?)
 puts(list1.any? { |e| e == 5 })
 puts(list1.any? { |e| e == 2 })
 
-
+# Test #all?
+puts(list1.all? { |e| e < 5 })
+puts(list1.all? { |e| e > 5 })
