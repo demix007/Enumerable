@@ -1,4 +1,5 @@
-require_relative 'myenumerable'
+require_relative 'enumerable'
+
 class MyList
   include MyEnumerable
   def initialize(*list)
@@ -6,19 +7,33 @@ class MyList
   end
 
   def each
-    @list.each { |item| yield item }
+    return to_enum(:each) unless block_given?
+
+    count = 0
+    while count < @list.length
+      yield(@list[count])
+      count += 1
+    end
+    @list
   end
 end
 
-list1 = MyList.new(1, 2, 3, 4)
 
-# Test #filter
-puts list1.filter(&:even?)
-
-# Test #any?
-puts(list1.any? { |e| e == 5 })
-puts(list1.any? { |e| e == 2 })
+# Create  list
+list = MyList.new(1, 2, 3, 4)
 
 # Test #all?
-puts(list1.all? { |e| e < 5 })
-puts(list1.all? { |e| e > 5 })
+list.all? { |e| e < 5 }
+# result = true
+list.all? { |e| e > 5 }
+# result = false
+
+# Test #any?
+list.any? { |e| e == 2 }
+# result = true
+list.any? { |e| e == 5 }
+# result = false
+
+# Test #filter
+list.filter(&:even?)
+# result = [2, 4]

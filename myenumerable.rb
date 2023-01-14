@@ -1,16 +1,31 @@
 module MyEnumerable
-  # all method
-  def all?
-    @list.all? { |item| yield(item) }
+  def my_all?
+    return unless block_given?
+
+    result = false
+    @list.each do |n|
+      result = true if yield(n)
+    end
+    result
   end
 
-  # any method
-  def any?
-    @list.any? { |item| yield(item) }
+  def my_any?
+    return unless block_given?
+
+    any = false
+    @list.each do |n|
+      any = true if yield(n)
+    end
+    any
   end
 
-  # filter method
-  def filter
-    @list.select { |item| yield(item) }
+  def my_filter?
+    return unless block_given?
+
+    number_array = []
+    @list.each do |n|
+      number_array.push(n) if yield(n)
+    end
+    number_array
   end
 end
