@@ -53,108 +53,26 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Space Travelers' Hub <a name="about-project"></a>
+# 📖 My-Enumarable<a name="about-project"></a>
 
+In this project, we achieved the following;
 
-** Space Travelers' Hub** is  a web application for a company that provides commercial and scientific space travel services.
+- Created class MyList inside my_list.rb file.
+- Created module MyEnumerable inside of enumerable.rb file.
+- Included or used MyEnumerable module inside of the MyList class.
+- Implemented methods all?, any?, and filter? methods within the MyEnumerable module.
+- The module and the class are each in their independent .rb files.
+- Verified the solution
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
-
-> Reactjs<br>
-> Javascript<br>
-> Redux <br>
-> CSS
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
+- **Ruby**
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-- book rockets
-- join selected space missions
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-
-## 💻 Getting Started <a name="getting-started"></a>
-
-
-To get a local copy up and running, follow these steps.
-
-### Prerequisites
-
-In order to run this project you need:
-
-```sh
- npm start
-```
-
-### Setup
-
-Clone this repository to your desired folder:
-
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone https://github.com/nunegabriel/React-Group-Project.git
-```
---->
-
-### Install
-
-Install this project with:
-
-
-```sh
-  cd React-Group-project
-  npm install
-```
-
-
-### Usage
-
-To run the project, execute the following command:
-
-
-
-```sh
-  npm start
-```
-
-
-### Run tests
-
-To run tests, run the following command:
-
-> Track HTML linter errors run:
-
-``` npx hint . ```
-> Track CSS linter errors run:
-
-``` npx stylelint "**/*.{css,scss}" ```
-
-> To run functional test run:
-``` npm test ```
+- Uses Ruby syntax for basic programming operations.
+- Apply Ruby best practices and language style guides in code.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,7 +80,6 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Gabriel Nunekpeku**
 
@@ -170,16 +87,15 @@ To run tests, run the following command:
 - Twitter: [@twitterhandle](https://twitter.com/_cornrow)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/gabriel-nunekpeku-623608173/)
 
-👤 **Nejjari Abdelhafid**
+👤 **Ayodeji Abidemi**
 
-- GitHub: [ @Nejjari001](https://github.com/Nejjari001)
-- Twitter: [@AbdoNJ19](https://https//twitter.com/AbdoNJ19)
-- LinkedIn: [Abdelhafid Nejjari](https://www.linkedin.com/in/abdelhafid-nejjari)
+- GitHub: [@githubhandle](https://github.com/demix007)
+- Twitter: [@twitterhandle](https://twitter.com/dat_dopr_demix)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ayodejiabidemi/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🔭 Future Features <a name="future-features"></a>
-- [ ] A dragon section would be added
 
 <!-- CONTRIBUTING -->
 
@@ -187,7 +103,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/nunegabriel/Enumerable/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -210,7 +126,6 @@ Hat tip to anyone whose code was used.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
 
 <!-- LICENSE -->
 
