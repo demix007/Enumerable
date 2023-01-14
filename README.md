@@ -1,34 +1,11 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
 
-Modify this file to match your project and remove sections that don't apply.
+<div align="center">
 
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
-
-
-# <h1><b>MY ENUMERABLE </b></h1>
+  <h1><b>My Enumerable</b></h1>
 
 </div>
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -51,7 +28,6 @@ After you're finished please remove all the comments and instructions!
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
 # 📖 My-Enumarable<a name="about-project"></a>
 
@@ -68,18 +44,31 @@ In this project, we achieved the following;
 
 - **Ruby**
 
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 - Uses Ruby syntax for basic programming operations.
 - Apply Ruby best practices and language style guides in code.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+VS Code, GIT, Ruby and NPM installed
+
+### Setup
+
+Clone this repository to your desired folder using the git clone command
+
+### Usage
+
+Run the code in the console/irb.
 
 ## 👥 Authors <a name="authors"></a>
-
 
 👤 **Gabriel Nunekpeku**
 
@@ -97,25 +86,15 @@ In this project, we achieved the following;
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- CONTRIBUTING -->
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/nunegabriel/Enumerable/issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
 
 Give a ⭐ if you like this project!
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
@@ -123,11 +102,6 @@ Give a ⭐ if you like this project!
 * Thanks to the Code Reviewer(s) for the insightful feedbacks.
 * A great thanks to My coding partner, morning session team, and standup team for their contributions.
 Hat tip to anyone whose code was used.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
